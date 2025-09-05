@@ -30,8 +30,9 @@ void create_screen_main() {
         }
         {
             lv_obj_t *obj = lv_btn_create(parent_obj);
-            lv_obj_set_pos(obj, 110, 172);
-            lv_obj_set_size(obj, 100, 50);
+            lv_obj_set_pos(obj, 49, 172);
+            lv_obj_set_size(obj, 212, 50);
+            lv_obj_set_style_text_font(obj, &lv_font_montserrat_14, LV_PART_MAIN | LV_STATE_DEFAULT);
             {
                 lv_obj_t *parent_obj = obj;
                 {

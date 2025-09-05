@@ -171,9 +171,9 @@
             {
               "objID": "d432106b-aab4-477e-c5aa-706975a59aa3",
               "type": "LVGLButtonWidget",
-              "left": 110,
+              "left": 49,
               "top": 172,
-              "width": 100,
+              "width": 212,
               "height": 50,
               "customInputs": [],
               "customOutputs": [],
@@ -252,7 +252,14 @@
               "disabledStateType": "literal",
               "states": "",
               "localStyles": {
-                "objID": "90c653e0-2eea-4358-b7e3-8b950e66f620"
+                "objID": "90c653e0-2eea-4358-b7e3-8b950e66f620",
+                "definition": {
+                  "MAIN": {
+                    "DEFAULT": {
+                      "text_font": "MONTSERRAT_14"
+                    }
+                  }
+                }
               },
               "group": "",
               "groupIndex": 0

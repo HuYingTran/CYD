@@ -1,5 +1,5 @@
 #include <Arduino.h>
-
+#include "lv_conf.h"
 #include <lvgl.h>                // LVGL 9
 #include <TFT_eSPI.h>            // TFT_eSPI
 #include <XPT2046_Touchscreen.h> // XPT2046
