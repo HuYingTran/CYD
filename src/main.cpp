@@ -95,6 +95,7 @@ void setup()
 
 // ================== LOOP ================== //
 uint32_t lastTick = 0;
+
 void loop()
 {
   uint32_t now = millis();
@@ -102,5 +103,7 @@ void loop()
   lastTick = now;
 
   lv_timer_handler();
-  delay(5);
+  ui_tick(); // EEZ Flow update
+
+  delay(1); // giảm delay để UI mượt hơn
 }
