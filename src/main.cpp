@@ -3,7 +3,7 @@
 #include <lvgl.h>                // LVGL 9
 #include <TFT_eSPI.h>            // TFT_eSPI
 #include <XPT2046_Touchscreen.h> // XPT2046
-#include "ui/ui.h"           // UI export từ EEZ Studio
+#include "ui/ui.h"               // UI export từ EEZ Studio
 
 // ================== CONFIG ================== //
 #define SCREEN_WIDTH 320
@@ -66,6 +66,7 @@ void setup()
   // TFT init
   tft.begin();
   tft.setRotation(3);
+  tft.writedata(2);
   tft.fillScreen(TFT_BLACK);
 
   // Touchscreen init
